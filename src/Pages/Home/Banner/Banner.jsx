@@ -11,7 +11,7 @@ const Banner = () => {
             <div className="md:w-1/3 w-full">
               <h1 className="mb-5 text-lg text-center px-2 rounded-md text-white bg-orange-600 w-1/2 ">COVID-19 PRODUCTS</h1>
               <p className="mb-5 "><span className="text-5xl tracking-wide ">PULSE</span> <br /><span className="text-7xl tracking-widest ">OXIMETER</span></p>
-              <button className="btn rounded-full btn-info px-5 text-white">Contact</button>
+              <Link to='/contact' className="btn rounded-full btn-info px-5 text-white">Contact</Link>
               <Link className=" underline ms-5 text-xl font-bold">Hot Collection +</Link>
             </div>
 
