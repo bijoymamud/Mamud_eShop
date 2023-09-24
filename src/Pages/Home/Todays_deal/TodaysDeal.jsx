@@ -51,7 +51,63 @@ const TodaysDeal = () => {
           {totalSeconds <= 0 && <p>Time's up!</p>}
         </div>
       </div>
-    </div>
+
+
+
+
+      <div className='hotDealsSection container w-5/6 md:grid mx-auto md:grid-cols-3 gap-10 py-20'>
+
+
+        <div className="card mb-5 bg-base-100 shadow-xl" style={{ position: "relative" }}>
+          <figure style={{ position: "relative" }}><img src="https://st.depositphotos.com/1000693/2141/i/450/depositphotos_21413179-stock-photo-bottle-of-indicator-strips-for.jpg" alt="Shoes" /></figure>
+          <div className="card-body">
+            <h2 className="card-title flex justify-between items-center">
+              Shoes!
+              <div className="  rounded-xl p-2 badge-warning text-black" style={{ position: "absolute", top: 0, right: 0 }}>HOT</div>
+            </h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div className="card-actions justify-end">
+              <div className="badge badge-outline">Fashion</div>
+              <div className="badge badge-outline">Products</div>
+            </div>
+          </div>
+        </div>
+
+        {/* <div className="card  bg-base-100 shadow-xl">
+          <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+          <div className="card-body">
+            <h2 className="card-title">
+              Shoes!
+              <div className="badge badge-secondary">NEW</div>
+            </h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div className="card-actions justify-end">
+              <div className="badge badge-outline">Fashion</div>
+              <div className="badge badge-outline">Products</div>
+            </div>
+          </div>
+        </div>
+
+        <div className="card  bg-base-100 shadow-xl">
+          <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+          <div className="card-body">
+            <h2 className="card-title">
+              Shoes!
+              <div className="badge badge-secondary">NEW</div>
+            </h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div className="card-actions justify-end">
+              <div className="badge badge-outline">Fashion</div>
+              <div className="badge badge-outline">Products</div>
+            </div>
+          </div>
+        </div> */}
+
+
+
+      </div>
+
+    </div >
   );
 }
 export default TodaysDeal;
