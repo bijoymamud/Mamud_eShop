@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "img": "https://st4.depositphotos.com/25214040/41780/i/450/depositphotos_417801186-stock-photo-picture-digital-thermometer-selective-focus.jpg",
+    "sub_title": "HOME ACCESSORIES",
+    "product_name": "Digital Thermometer",
+    "price": 19.99
+  },
+  {
+    "id": 2,
+    "img": "https://static-bebeautiful-in.unileverservices.com/effective-hand-sanitizer_1_0.jpg",
+    "sub_title": "HOME ACCESSORIES",
+    "product_name": "Hand Sanitizer Covid -19",
+    "price": 29.99
+  },
+  {
+    "id": 3,
+    "img": "https://netec.org/wp-content/uploads/2021/12/anatomy-of-mask-600x400.jpg",
+    "sub_title": "ACCESSORIES",
+    "product_name": "Face Mask",
+    "price": 14.99
+  },
+  {
+    "id": 4,
+    "img": "https://st3.depositphotos.com/1177973/18562/i/450/depositphotos_185621038-stock-photo-woman-holding-digital-glucometer-and.jpg",
+    "sub_title": "ACCESSORIES",
+    "product_name": "Diabetic Machine",
+    "price": 49.99
+  },
+  {
+    "id": 5,
+    "img": "https://static8.depositphotos.com/1397202/867/i/450/depositphotos_8675453-stock-photo-blood-pressure-monitor.jpg",
+    "sub_title": "ACCESSORIES",
+    "product_name": "Blood Pressure Machine",
+    "price": 39.99
+  },
+  {
+    "id": 6,
+    "img": "https://firstchoicedentalsupplies.com/cdn/shop/products/HexaSilkSuture1_1200x1200.png?v=1648561832",
+    "sub_title": "ACCESSORIES",
+    "product_name": "Surgical Needle",
+    "price": 24.99
+  },
+  {
+    "id": 7,
+    "img": "https://st.depositphotos.com/1000693/2141/i/450/depositphotos_21413179-stock-photo-bottle-of-indicator-strips-for.jpg",
+    "sub_title": "ACCESSORIES",
+    "product_name": "Diabetic Strip",
+    "price": 34.99
+  },
+  {
+    "id": 8,
+    "img": "https://st5.depositphotos.com/16888564/65202/i/450/depositphotos_652026840-stock-photo-black-stethoscope-white-background-healthcare.jpg",
+    "sub_title": "ACCESSORIES",
+    "product_name": "Stethoscope",
+    "price": 9.99
+  },
+  {
+    "id": 9,
+    "img": "https://st4.depositphotos.com/10325516/19791/i/600/depositphotos_197910152-stock-photo-rendering-scalpel-surgery-knife-white.jpg",
+    "sub_title": "ACCESSORIES",
+    "product_name": "Scalpel Blade",
+    "price": 59.99
+  },
+  {
+    "id": 10,
+    "img": "https://www.precisemedical.com.au/cdn/shop/products/Fomon-Dorsal-Scissors-768x512_grande_a734dea0-e8c9-4d90-bef3-3ed5d1a3e9d9_600x.jpg?v=1668489579",
+    "sub_title": "ACCESSORIES",
+    "product_name": "Dorsal Scissors",
+    "price": 19.99
+  },
+  {
+    "id": 11,
+    "img": "https://static.vecteezy.com/system/resources/thumbnails/017/213/759/small_2x/insulin-ampoule-with-injection-syringe-diabetes-control-concept-medical-shot-for-diabetic-patients-medicine-bottle-for-people-with-high-blood-sugar-isolated-eps-illustration-vector.jpg",
+    "sub_title": "ACCESSORIES",
+    "product_name": "Insuline",
+    "price": 29.99
+  },
+  {
+    "id": 12,
+    "img": "https://www.rbmedical.co.uk/media/4237/ea950.jpg?mode=boxcrop&width=600&height=400&anchor=&bgcolor=ffffff",
+    "sub_title": "ACCESSORIES",
+    "product_name": "Surgical Needle",
+    "price": 14.99
+  }
+]
