@@ -144,7 +144,7 @@ const Registration = () => {
                   />
                 </div>
                 <div className='mt-5 form-control'>
-                  <button className='btn btn-primary'>Registration</button>
+                  <button className='btn btn-primary text-white'>Registration</button>
                 </div>
               </form>
               <div className='text-center'>
