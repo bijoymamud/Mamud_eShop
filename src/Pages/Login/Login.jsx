@@ -66,7 +66,7 @@ const Login = () => {
                 </div>
                 <div className='form-control '>
                   <input
-                    className='btn btn-primary '
+                    className='btn btn-primary text-white '
                     type='submit'
                     value={'Login'}
                   />
