@@ -101,7 +101,7 @@ const About = () => {
         </div>
 
         <div className='grid grid-cols-4 gap-10 p-20'>
-          <div className="card hover:rounded-none hover:border-warning hover:border-t-4 hover:border-r-4 bg-base-100 shadow-xl pt-10">
+          <div className="card hover:rounded-none hover:border-warning hover:border-b-4 hover:border-l-4 bg-base-100 shadow-xl pt-10">
             <div className=" text-center">
               <h2 className=" text-center text-xl font-extrabold pb-3">Medical Accessories</h2>
               <img className='h-[80px] w-[80px] mx-auto pb-3' src="https://www.devsnews.com/template/medibazar/medibazar/assets/img/icon/f-01.png" alt="" />
@@ -111,7 +111,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="card hover:rounded-none hover:border-indigo-500 hover:border-t-4 hover:border-r-4 bg-base-100 shadow-xl pt-10">
+          <div className="card hover:rounded-none hover:border-t-4 hover:border-r-4 hover:border-warning  bg-base-100 shadow-xl pt-10">
             <div className=" text-center">
               <h2 className=" text-center text-xl font-extrabold pb-3">Treatment Center</h2>
               <img className='h-[80px] w-[80px] mx-auto pb-3' src="https://www.devsnews.com/template/medibazar/medibazar/assets/img/icon/f-02.png" alt="" />
@@ -121,7 +121,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="card hover:rounded-none hover:border-indigo-500 hover:border-t-4 hover:border-r-4 bg-base-100 shadow-xl pt-10">
+          <div className="card hover:rounded-none hover:border-warning hover:border-b-4 hover:border-l-4 bg-base-100 shadow-xl pt-10">
             <div className=" text-center">
               <h2 className=" text-center text-xl font-extrabold pb-3">Emergency Care</h2>
               <img className='h-[80px] w-[80px] mx-auto pb-3' src="https://www.devsnews.com/template/medibazar/medibazar/assets/img/icon/f-03.png" alt="" />
@@ -131,7 +131,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="card hover:rounded-none hover:border-indigo-500 hover:border-t-4 hover:border-r-4 bg-base-100 shadow-xl pt-10">
+          <div className="card hover:rounded-none hover:border-t-4 hover:border-r-4 hover:border-warning bg-base-100 shadow-xl pt-10">
             <div className=" text-center">
               <h2 className=" text-center text-xl font-extrabold pb-3">Online Consultations
               </h2>
