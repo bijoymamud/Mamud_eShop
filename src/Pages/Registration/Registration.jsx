@@ -13,8 +13,8 @@ const Registration = () => {
   } = useForm()
   const password = watch('password')
   return (
-    <div>
-      <div className='min-h-screen hero container mx-auto'>
+    <div className='md:pb-40'>
+      <div className='min-h-screen hero container mx-auto py-10'>
         <div className='items-center justify-between gap-10 px-3 md:flex'>
           <div className='md:w-1/2'>
             <img src='https://i.ibb.co/jDMz1bj/login-page-banner.png' alt='' />
