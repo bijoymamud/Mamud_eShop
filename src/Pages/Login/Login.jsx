@@ -1,15 +1,32 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { useForm } from 'react-hook-form';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { AuthContex } from '../../providers/AuthProvider';
 import SocialLogin from './SocialLogin';
 
 const Login = () => {
-  const [passShow, setPassShow] = useState(false)
+  const navigate = useNavigate()
+  const [passShow, setPassShow] = useState(false);
+  const { signIn } = useContext(AuthContex)
+
+
   const {
     register,
     handleSubmit,
     formState: { errors }
-  } = useForm()
+  } = useForm();
+
+  const onSubmit = data => {
+    signIn(data.email, data.password)
+      .then(result => {
+        const loggedUser = result.user
+        navigate('/')
+
+      })
+      .catch(error => {
+        console.log(error);
+      })
+  }
 
   return (
     <div>
@@ -24,7 +41,7 @@ const Login = () => {
               <h1 className='my-5 text-4xl font-bold '>Login</h1>
             </div>
             <div className='card-body'>
-              <form >
+              <form onSubmit={handleSubmit(onSubmit)} >
                 <div className='form-control'>
                   <label className='label'>
                     <span className='font-bold label-text'>Email</span>
