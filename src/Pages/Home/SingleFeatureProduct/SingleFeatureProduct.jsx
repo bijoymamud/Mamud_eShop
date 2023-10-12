@@ -5,6 +5,8 @@ const SingleFeatureProduct = ({ product }) => {
 
   const { id, img, sub_title, product_name, price } = product;
 
+
+
   return (
     <div>
       <div className="card card-compact w-96 bg-base-100 shadow-xl">
@@ -18,6 +20,8 @@ const SingleFeatureProduct = ({ product }) => {
           </div>
         </div>
       </div>
+
+
     </div>
   );
 };
