@@ -3,7 +3,7 @@ import React from 'react';
 const Faq = () => {
   return (
     <div>
-      <div
+      <div className='w-5/6 mx-auto pb-40'
 
       >
         <h1 className="text-4xl mb-10 text-center">Frequently Ask Question</h1>
@@ -20,17 +20,11 @@ const Faq = () => {
             <div className="border   px-5 shadow-md rounded-md">
               <details>
                 <summary className="py-2 outline-none cursor-pointer text-xl ">
-                  What is E-examPro?
+                  What is Medibazar?
                 </summary>
                 <div className="px-4 pb-4">
-                  <p className=" ">
-                    <span className="font-semibold ">E-examPro</span> is the
-                    cutting-edge online platform designed to revolutionize the way
-                    students take exams. With a commitment to excellence and
-                    innovation, E-examPro provides a seamless and efficient
-                    solution for conducting exams in a digital landscape. Say
-                    goodbye to traditional exam paper stress and hello to a new
-                    era of convenient, accessible, and secure exam-taking.
+                  <p className="text-gray-500 ">
+                    <span className="font-semibold text-gray-900 ">Medibazar </span> is more than just a medical equipment store; it's a commitment to your health and well-being. We believe that having access to the right tools and equipment can make a world of difference in your healthcare journey.
                   </p>
                 </div>
               </details>
@@ -42,14 +36,20 @@ const Faq = () => {
                   className="py-2 outline-none cursor-pointer 
                text-xl"
                 >
-                  Why Students choosing E-examPro platform?
+                  Why Choose Medibazar?
                 </summary>
                 <div className="px-4 pb-4">
                   <p className=" ">
-                    E-examPro adapts to your learning level. The platforms
-                    intelligent algorithms present questions that match your
-                    competency, giving you a fair and accurate assessment that
-                    reflects your true understanding of the subject matter.
+                    <ul>
+                      <li className='text-gray-500 pb-3'>
+                        <span className='font-semibold text-gray-900'>Comprehensive Selection:</span> Explore a vast and carefully curated collection of medical equipment and supplies. From diagnostic tools to daily living aids, we offer a wide range of products to meet your unique needs.
+                      </li>
+
+
+                      <li className='text-gray-500 pb-3'>
+                        <span className='font-semibold text-gray-900'>Quality Assurance: </span> Your health is paramount. We prioritize quality and reliability in every product we offer, ensuring that you receive the best solutions available on the market.
+                      </li>
+                    </ul>
                   </p>
                 </div>
               </details>
@@ -61,14 +61,11 @@ const Faq = () => {
                   className="py-2 outline-none cursor-pointer 
                text-xl"
                 >
-                  Is E-examPro easy for cheating?
+                  What types of medical equipment & supplies we offer?
                 </summary>
                 <div className="px-4 pb-4">
-                  <p className=" ">
-                    The platform is equipped with anti-cheating measures, such as
-                    webcam monitoring and browser lockdown, ensuring that each
-                    students performance is genuine and reflective of their own
-                    efforts.
+                  <p className=" text-gray-500 pb-3">
+                    We offer a wide range of products, including diagnostic tools, mobility aids, home healthcare essentials, and more. Explore our catalog for details.
                   </p>
                 </div>
               </details>
@@ -80,54 +77,16 @@ const Faq = () => {
                   className="py-2 outline-none cursor-pointer 
                 text-xl"
                 >
-                  How to participate in E-examPro platform?
+                  Are our products compliant with regulatory standards?
                 </summary>
                 <div className="px-4 pb-4">
-                  <p className=" ">
-                    New users can quickly register for the platform by using their
-                    Google accounts. This simplifies the registration process,
-                    reducing friction and encouraging more students to participate
-                    in exams.
+                  <p className=" text-gray-500">
+                    We strive to offer products that meet relevant regulatory standards and certifications. If you have specific compliance requirements, please contact our customer support for detailed information on a particular product.
                   </p>
                 </div>
               </details>
             </div>
-            <div className="border   px-5 shadow-md rounded-md">
-              <details>
-                <summary
-                  className="py-2 outline-none cursor-pointer 
-                text-xl"
-                >
-                  How to participate in E-examPro platform?
-                </summary>
-                <div className="px-4 pb-4">
-                  <p className=" ">
-                    New users can quickly register for the platform by using their
-                    Google accounts. This simplifies the registration process,
-                    reducing friction and encouraging more students to participate
-                    in exams.
-                  </p>
-                </div>
-              </details>
-            </div>
-            <div className="border   px-5 shadow-md rounded-md">
-              <details>
-                <summary
-                  className="py-2 outline-none cursor-pointer 
-                text-xl"
-                >
-                  How to participate in E-examPro platform?
-                </summary>
-                <div className="px-4 pb-4">
-                  <p className=" ">
-                    New users can quickly register for the platform by using their
-                    Google accounts. This simplifies the registration process,
-                    reducing friction and encouraging more students to participate
-                    in exams.
-                  </p>
-                </div>
-              </details>
-            </div>
+
           </div>
         </div>
       </div>
