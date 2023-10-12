@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
-    <div>
+    <div className="pb-60">
       <div className="hero h-[90vh]" >
 
         <div className="hero-content text-start ">
@@ -16,7 +16,7 @@ const Banner = () => {
             </div>
 
             <div className="md:w-2/3 w-full">
-              <img src="https://images.unsplash.com/photo-1615486511262-c7b5c7f42b14?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80" alt="" />
+              <img className="w-full md:h-[87vh]" src="https://i.ibb.co/nLf8pKL/PA-O2-11-removebg-preview.png" alt="" />
             </div>
           </div>
         </div>

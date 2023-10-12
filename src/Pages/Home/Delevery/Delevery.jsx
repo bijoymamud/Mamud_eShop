@@ -1,10 +1,10 @@
 import React from 'react';
-import { FaMapMarkedAlt, FaShoppingCart, FaUsers } from 'react-icons/fa';
+import { FaDollarSign, FaMapMarkedAlt, FaShippingFast, FaShoppingCart, FaUnlockAlt, FaUsers } from 'react-icons/fa';
 
 const Delevery = () => {
   return (
-    <div className=' container mx-auto w-5/6 rounded-xl py-20'>
-      <div className='flex items-center gap-10'>
+    <div className=' container mx-auto w-5/6 rounded-xl py-32'>
+      <div className='flex items-center gap-10 pb-20'>
         <div className='w-1/2'
         >
           <img className='w-full' src="https://i.ibb.co/D75BTpQ/red-delivery-car-deliver-express-shipping-fast-delivery-background-3d-rendering-illustration-removeb.png" alt="" />
@@ -43,6 +43,34 @@ const Delevery = () => {
                 <h2>500</h2>
                 <p>Satisfied Customers</p>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className='bg-gray-100 p-20 rounded-lg w-full my-10'>
+        <div className='grid grid-cols-3 gap-10 mx-auto'>
+          <div className='flex items-start justify-between gap-5 bg-white p-4 rounded-lg shadow-lg'>
+            <FaShippingFast className='text-6xl text-sky-500 ease-in duration-300' />
+            <div>
+              <h1 className='text-2xl pb-3'>Free Delivery</h1>
+              <p className='text-gray-400'>Sed perspicia unde omnis iste nat error voluptate accus</p>
+            </div>
+          </div>
+
+          <div className='flex items-start justify-between gap-5 bg-white p-4 rounded-lg shadow-lg'>
+            <FaDollarSign className='text-4xl text-rose-600' />
+            <div>
+              <h1 className='text-2xl pb-3'>Money Back</h1>
+              <p className='text-gray-400'>Sed perspicia unde omnis iste nat error voluptate accus</p>
+            </div>
+          </div>
+
+          <div className='flex items-start justify-between gap-5 bg-white p-4 rounded-lg shadow-lg'>
+            <FaUnlockAlt className='text-4xl text-yellow-400' />
+            <div>
+              <h1 className='text-2xl pb-3'><span className='text-green-600 font-bold'>100%</span> Secure</h1>
+              <p className='text-gray-400'>Sed perspicia unde omnis iste nat error voluptate accus</p>
             </div>
           </div>
         </div>

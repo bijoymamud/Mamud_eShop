@@ -82,7 +82,7 @@ const FeaturesProducts = () => {
       </div> */}
 
       <div className="text-center pb-36 font">
-        <button onClick={handleSeeMore} className="btn btn-wide">
+        <button onClick={handleSeeMore} className="btn hover:text-black bg-slate-800 text-white btn-wide ">
           {showAll ? "See Less" : "See More"}
         </button>
       </div>
